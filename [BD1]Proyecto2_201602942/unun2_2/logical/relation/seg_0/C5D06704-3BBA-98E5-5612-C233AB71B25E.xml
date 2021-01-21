@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="profesion-profarea" directorySegmentName="seg_0" id="C5D06704-3BBA-98E5-5612-C233AB71B25E">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:05:11 UTC</createdTime>
+<ownerDesignName>unun2_2</ownerDesignName>
+<engineerTo>
+<item key="1C0431EB-D100-5BA4-AB45-8A412D23E02F" value="true"/>
+</engineerTo>
+<sourcePk>59D5D936-5E7B-84A6-B87A-2FFC88FB499B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1C41A03B-FCB0-9A3B-433A-A4B05D65A96D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FC9EE7A6-E9A5-B776-00E6-31607F14D61E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

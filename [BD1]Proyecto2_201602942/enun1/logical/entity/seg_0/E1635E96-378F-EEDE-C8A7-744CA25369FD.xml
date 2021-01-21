@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E1635E96-378F-EEDE-C8A7-744CA25369FD" name="Codigo_Postal">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-26 17:26:03 UTC</createdTime>
+<ownerDesignName>enun1</ownerDesignName>
+<engineerTo>
+<item key="44673A24-6264-7619-64F6-C097BEC7FF60" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Codigo_Postal" id="4EB28243-BC7F-9DE1-218F-C8B002CD2D83">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-26 17:26:18 UTC</createdTime>
+<ownerDesignName>enun1</ownerDesignName>
+<engineerTo>
+<item key="44673A24-6264-7619-64F6-C097BEC7FF60" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Numero_Codigo_Postal" id="29C22950-579F-73BA-DAF2-A0CEEB3103A2">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-26 17:26:47 UTC</createdTime>
+<ownerDesignName>enun1</ownerDesignName>
+<engineerTo>
+<item key="44673A24-6264-7619-64F6-C097BEC7FF60" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Ciudad" id="73B900BC-C83C-0FDE-9E13-DFF92944854C">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-26 17:51:52 UTC</createdTime>
+<generatorID>74D6F0BE-2E0C-AAEB-DE50-5D2E2971627A</generatorID>
+<ownerDesignName>enun1</ownerDesignName>
+<engineerTo>
+<item key="44673A24-6264-7619-64F6-C097BEC7FF60" value="true"/>
+</engineerTo>
+<referedAttribute>73B615B1-2D64-C7D3-199D-91393CB0E8FA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EA8B495A-4E21-3A15-EB19-EC3ACED4FF03" name="Codigo_Postal PK">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-26 17:26:44 UTC</createdTime>
+<ownerDesignName>enun1</ownerDesignName>
+<engineerTo>
+<item key="44673A24-6264-7619-64F6-C097BEC7FF60" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4EB28243-BC7F-9DE1-218F-C8B002CD2D83</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

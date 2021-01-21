@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="inventor-detalle" directorySegmentName="seg_0" id="7CAA7BEF-A23E-7058-EAB9-FC28C12304B9">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 04:44:13 UTC</createdTime>
+<ownerDesignName>unun2_2</ownerDesignName>
+<engineerTo>
+<item key="1C0431EB-D100-5BA4-AB45-8A412D23E02F" value="true"/>
+</engineerTo>
+<sourcePk>A071C2E4-6205-2760-BFE5-17B3A3ED7871</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9808A0D3-1AD0-BA18-2077-8BA67A58A950</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>19008D19-94DA-481B-8B92-13589428459B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

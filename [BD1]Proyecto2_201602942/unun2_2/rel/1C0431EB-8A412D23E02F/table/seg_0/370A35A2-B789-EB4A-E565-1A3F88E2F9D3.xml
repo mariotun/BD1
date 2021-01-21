@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="370A35A2-B789-EB4A-E565-1A3F88E2F9D3" name="Invento">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:42:02 UTC</createdTime>
+<generatorID>4A1EE658-F1AE-B743-AE34-7558397A046E</generatorID>
+<ownerDesignName>unun2_2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Invento" id="BD87EDDE-A518-2A03-D943-1FD5039B37A2">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:42:02 UTC</createdTime>
+<generatorID>C69E5A7D-6D5C-90BC-F49D-A2DA0692AEC1</generatorID>
+<ownerDesignName>unun2_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_Invento" id="3B783BF4-F4F3-7900-9D54-E80BA0AEC737">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:42:02 UTC</createdTime>
+<generatorID>1BD80EBC-F5C8-0A68-4136-3646E187D7B0</generatorID>
+<ownerDesignName>unun2_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Anio_Invento" id="3BAFD8F8-3783-B590-CABE-06CA75412D3A">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:42:02 UTC</createdTime>
+<generatorID>7EE381B4-EBE4-369B-D047-FEFB8B69094D</generatorID>
+<ownerDesignName>unun2_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C97CCC3D-C77A-B43B-8E82-8D6DE8253E14" name="Invento_PK">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:42:02 UTC</createdTime>
+<generatorID>751374D1-7FA7-7750-1337-D9E55FDD61BD</generatorID>
+<ownerDesignName>unun2_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD87EDDE-A518-2A03-D943-1FD5039B37A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

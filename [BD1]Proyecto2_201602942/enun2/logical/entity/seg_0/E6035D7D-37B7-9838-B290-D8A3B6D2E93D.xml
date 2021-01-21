@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E6035D7D-37B7-9838-B290-D8A3B6D2E93D" name="Area_Investigacion">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 19:55:40 UTC</createdTime>
+<ownerDesignName>enun2</ownerDesignName>
+<engineerTo>
+<item key="F596A855-89C3-B842-A2D8-168827B2104F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Area_Inv" id="D8B1CDE2-1E49-02B9-6C85-606F77681A32">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 19:56:22 UTC</createdTime>
+<ownerDesignName>enun2</ownerDesignName>
+<engineerTo>
+<item key="F596A855-89C3-B842-A2D8-168827B2104F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre_Area_Inv" id="9757E7CE-5AB8-FE3C-87A4-A40FA0FF2369">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 19:56:43 UTC</createdTime>
+<ownerDesignName>enun2</ownerDesignName>
+<engineerTo>
+<item key="F596A855-89C3-B842-A2D8-168827B2104F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ranking" id="211D55A6-7CE8-8F75-857F-4E65879958AA">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 19:57:04 UTC</createdTime>
+<ownerDesignName>enun2</ownerDesignName>
+<engineerTo>
+<item key="F596A855-89C3-B842-A2D8-168827B2104F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9A369DA8-8D8A-8D21-D391-E27382D03CBB" name="Area_Investigacion PK">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 19:56:39 UTC</createdTime>
+<ownerDesignName>enun2</ownerDesignName>
+<engineerTo>
+<item key="F596A855-89C3-B842-A2D8-168827B2104F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D8B1CDE2-1E49-02B9-6C85-606F77681A32</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

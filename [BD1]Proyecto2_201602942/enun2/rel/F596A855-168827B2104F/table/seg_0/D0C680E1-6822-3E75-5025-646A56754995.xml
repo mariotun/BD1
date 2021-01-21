@@ -1,0 +1,158 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D0C680E1-6822-3E75-5025-646A56754995" name="Pais">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:27:31 UTC</createdTime>
+<generatorID>586849F9-4D67-195D-6CC6-E2AAD290282A</generatorID>
+<ownerDesignName>enun2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Pais" id="1F064432-6BF2-CAC7-0466-B27291072158">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:27:31 UTC</createdTime>
+<generatorID>43D6C420-C5B1-D9CA-6B4E-7B63E388F061</generatorID>
+<ownerDesignName>enun2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_Pais" id="FA4C467A-238F-286E-0D2F-D06843CC7086">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:27:31 UTC</createdTime>
+<generatorID>1D812FDE-97DD-AEE6-4C56-41EF6E32EFEF</generatorID>
+<ownerDesignName>enun2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Capital_Pais" id="A4AC4519-1685-855D-5483-C54A995BE520">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:27:31 UTC</createdTime>
+<generatorID>950845DC-5E28-367A-B531-44FBD8F2511F</generatorID>
+<ownerDesignName>enun2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Poblacion_Pais" id="CE9F2D31-C60C-DEF8-E605-A62D45F28642">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:27:31 UTC</createdTime>
+<generatorID>9F50277D-A002-AA1C-1057-5E1F07BD81C5</generatorID>
+<ownerDesignName>enun2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Area_KM2" id="45B89CEC-396E-E7D1-76ED-CAA3C4D208DF">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:27:31 UTC</createdTime>
+<generatorID>8B8257EB-49E7-59AA-02F6-9E8CCFFBE94E</generatorID>
+<ownerDesignName>enun2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PFrontera" id="CE4FB6A0-6FBA-69E6-F082-59A4833B8646">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:27:31 UTC</createdTime>
+<generatorID>4A7B2D66-16AE-FB53-25FE-B199A9BB5DB3</generatorID>
+<ownerDesignName>enun2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Region_ID_Region" id="1B393FAF-0733-2C73-4C43-3B5431AE1672">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:27:31 UTC</createdTime>
+<generatorID>9B067BE2-25BA-61BC-A26F-ACA0D551052E</generatorID>
+<ownerDesignName>enun2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DA22E20F-646C-5D17-2D64-D89E05CCCFF0" referredColumn="99F00B69-9F46-3A96-EC2A-652AC1B244F7"/>
+</associations>
+</Column>
+<Column name="Invento_ID_Invento" id="5CD30F66-7C7E-18E4-2349-4FB5D72075E7">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:27:31 UTC</createdTime>
+<generatorID>03ACACE1-3BE4-A541-E121-BB977FF84211</generatorID>
+<ownerDesignName>enun2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E41BF7AC-4D0C-3A0B-A81E-2457041B0704" referredColumn="D9CFB2C6-AFEB-175E-341B-C6DE9325CD67"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BDE99EAD-3FFB-A4AA-5773-C64EE6BBE6B9" name="Pais_PK">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:27:31 UTC</createdTime>
+<generatorID>C9EDA7AB-35CC-1F05-484C-39DFB7969A05</generatorID>
+<ownerDesignName>enun2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F064432-6BF2-CAC7-0466-B27291072158"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="37B65CDA-64EF-5969-6A35-21813693136F" name="Pais__IDX">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:27:31 UTC</createdTime>
+<ownerDesignName>enun2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>20217550-D7A1-E614-D3BC-680D8B230C50</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="5CD30F66-7C7E-18E4-2349-4FB5D72075E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F0E0220F-266A-F91A-F91C-B97B29A9AAAC" name="Pais_Invento_FK">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:27:31 UTC</createdTime>
+<generatorID>20217550-D7A1-E614-D3BC-680D8B230C50</generatorID>
+<ownerDesignName>enun2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5CD30F66-7C7E-18E4-2349-4FB5D72075E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="55567644-8B0E-CD75-A8EA-D56D985E8EE4" name="Pais_Region_FK">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:27:31 UTC</createdTime>
+<generatorID>294DF3E8-3740-2B40-1BD2-B5B363188E02</generatorID>
+<ownerDesignName>enun2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B393FAF-0733-2C73-4C43-3B5431AE1672"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="encuesta-respuesta" directorySegmentName="seg_0" id="97CC6F15-A1A1-3CCF-9864-533E013520B2">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 21:41:21 UTC</createdTime>
+<ownerDesignName>enun2</ownerDesignName>
+<engineerTo>
+<item key="F596A855-89C3-B842-A2D8-168827B2104F" value="true"/>
+</engineerTo>
+<sourcePk>D4495852-65DB-462E-28C7-40525AD8E2FA</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DB30DA01-01E0-A0FF-3722-5C603CD1C5F5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>72E6D313-A6A3-BD60-9485-D55DFB5A3F69</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F4299B1A-BAD8-8140-43AB-596EA1DBEEC4" name="Categoria">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-26 18:01:44 UTC</createdTime>
+<generatorID>4CECDABA-725D-3783-CAB1-B11EDCDAB45E</generatorID>
+<ownerDesignName>enun1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Categoria" id="DA4CB19B-DD17-22B9-3E0D-E714C8F7DBC8">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-26 18:01:44 UTC</createdTime>
+<generatorID>70D2F452-EEBF-8248-2DAF-5322AD34E6B9</generatorID>
+<ownerDesignName>enun1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_Categoria" id="1061BEF8-E978-8186-EA6D-97C95AE3BBF8">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-26 18:01:44 UTC</createdTime>
+<generatorID>9C3E9721-AB85-E8C1-FFD7-02EF7744EDCB</generatorID>
+<ownerDesignName>enun1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Categoria_ID" id="1D43E0F2-C01D-E4C1-EDAF-D0BA7FF51653">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-26 18:01:44 UTC</createdTime>
+<ownerDesignName>enun1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A843D0A5-6DF4-3721-80A3-52D43C186ECD" name="Categoria_PK">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-26 18:01:44 UTC</createdTime>
+<ownerDesignName>enun1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="1D43E0F2-C01D-E4C1-EDAF-D0BA7FF51653"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

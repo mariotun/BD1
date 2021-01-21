@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="area-prfarea" directorySegmentName="seg_0" id="EEBB2A5C-E3AA-2D61-8383-B0263257CFF7">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:03:41 UTC</createdTime>
+<ownerDesignName>unun2_2</ownerDesignName>
+<engineerTo>
+<item key="1C0431EB-D100-5BA4-AB45-8A412D23E02F" value="true"/>
+</engineerTo>
+<sourcePk>D2812E43-E85E-B025-CED1-12BFE388E134</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8B8F050A-11F5-E2E0-7D7E-D85F31ECCFAB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FC9EE7A6-E9A5-B776-00E6-31607F14D61E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

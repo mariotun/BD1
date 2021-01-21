@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3A16A112-ABDD-707A-1A41-702DE5084D19" name="Profesional_Area">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:42:02 UTC</createdTime>
+<generatorID>FC9EE7A6-E9A5-B776-00E6-31607F14D61E</generatorID>
+<ownerDesignName>unun2_2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Profesional_Area" id="94B5D14A-6197-B47F-5431-9DE829B030E8">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:42:02 UTC</createdTime>
+<generatorID>79B73037-112B-F6E1-4BA3-0A34FD2CD95C</generatorID>
+<ownerDesignName>unun2_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Area_ID_Area" id="5D44EABD-AA4A-AB93-51F4-F291C359922D">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:42:02 UTC</createdTime>
+<generatorID>85542B33-F8D2-547B-7905-6367D1036892</generatorID>
+<ownerDesignName>unun2_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0F10D3B2-8ED3-2E74-EDD7-57FD304C4991" referredColumn="20CE8D4C-5C44-E22D-E823-67E732B2847E"/>
+</associations>
+</Column>
+<Column name="Profesional_ID_Profesional" id="B5F9B815-319A-87B0-0502-4ED58E1D707E">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:42:02 UTC</createdTime>
+<generatorID>E4F88FE5-E2E6-8884-C0B5-B86C4FCF7A3A</generatorID>
+<ownerDesignName>unun2_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A1AE0E40-468B-4608-DB34-6935E06B118B" referredColumn="3C6C6D77-2469-159E-E528-06A767802210"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3AADC842-E61F-6822-E9A0-1134444FC07F" name="Profesional_Area_PK">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:42:02 UTC</createdTime>
+<generatorID>862797AA-5695-81FE-4B7C-A56A60610FB6</generatorID>
+<ownerDesignName>unun2_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94B5D14A-6197-B47F-5431-9DE829B030E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D830C843-7195-CA10-D59D-56F449D4C818" name="Profesional_Area_Area_FK">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:42:02 UTC</createdTime>
+<generatorID>EEBB2A5C-E3AA-2D61-8383-B0263257CFF7</generatorID>
+<ownerDesignName>unun2_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D44EABD-AA4A-AB93-51F4-F291C359922D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="629C97B7-B9B5-4A5F-9586-3851F4FC3688" name="Profesional_Area_Profesional_FK">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:42:03 UTC</createdTime>
+<generatorID>C5D06704-3BBA-98E5-5612-C233AB71B25E</generatorID>
+<ownerDesignName>unun2_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5F9B815-319A-87B0-0502-4ED58E1D707E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

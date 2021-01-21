@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="922F0938-5EDD-17CA-3253-9B4C5657893B" name="Area_Investigacion">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:27:31 UTC</createdTime>
+<generatorID>E6035D7D-37B7-9838-B290-D8A3B6D2E93D</generatorID>
+<ownerDesignName>enun2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Area_Inv" id="EEE0DC13-5E4C-907A-2561-79374BBBD852">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:27:31 UTC</createdTime>
+<generatorID>D8B1CDE2-1E49-02B9-6C85-606F77681A32</generatorID>
+<ownerDesignName>enun2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_Area_Inv" id="52A58596-4F64-832C-5E69-B2168257BDE4">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:27:31 UTC</createdTime>
+<generatorID>9757E7CE-5AB8-FE3C-87A4-A40FA0FF2369</generatorID>
+<ownerDesignName>enun2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ranking" id="904F5633-C822-1D3B-2774-6947A4F00A54">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:27:31 UTC</createdTime>
+<generatorID>211D55A6-7CE8-8F75-857F-4E65879958AA</generatorID>
+<ownerDesignName>enun2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3F7A564A-3760-0523-2DC8-7F0ABE7D2044" name="Area_Investigacion_PK">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:27:31 UTC</createdTime>
+<generatorID>9A369DA8-8D8A-8D21-D391-E27382D03CBB</generatorID>
+<ownerDesignName>enun2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EEE0DC13-5E4C-907A-2561-79374BBBD852"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

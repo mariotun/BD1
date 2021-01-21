@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="cpostal-persona" directorySegmentName="seg_0" id="A03C1182-180B-A8DA-7162-A984951873FE">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-26 17:55:20 UTC</createdTime>
+<ownerDesignName>enun1</ownerDesignName>
+<engineerTo>
+<item key="44673A24-6264-7619-64F6-C097BEC7FF60" value="true"/>
+</engineerTo>
+<sourcePk>EA8B495A-4E21-3A15-EB19-EC3ACED4FF03</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E1635E96-378F-EEDE-C8A7-744CA25369FD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>56996CF1-6851-FB3B-8546-A914135D292A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

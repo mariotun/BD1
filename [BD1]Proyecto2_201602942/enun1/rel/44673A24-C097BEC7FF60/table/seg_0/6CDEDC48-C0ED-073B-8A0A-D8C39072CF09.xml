@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6CDEDC48-C0ED-073B-8A0A-D8C39072CF09" name="Persona">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-26 18:01:44 UTC</createdTime>
+<generatorID>56996CF1-6851-FB3B-8546-A914135D292A</generatorID>
+<ownerDesignName>enun1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Persona" id="B8720BBE-A86A-2686-699C-A67C1CCFEACA">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-26 18:01:44 UTC</createdTime>
+<generatorID>43E3C113-9C7E-7686-A0AF-76B9E3A37B4F</generatorID>
+<ownerDesignName>enun1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_Persona" id="69F668B5-EBE4-C657-5684-7BC911D197F4">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-26 18:01:44 UTC</createdTime>
+<generatorID>82193A54-3A31-B015-318E-9F3706FC197A</generatorID>
+<ownerDesignName>enun1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Correo_Persona" id="E8930B02-1CAC-D442-A8E7-1162D6317100">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-26 18:01:44 UTC</createdTime>
+<generatorID>4B17DC23-B534-02AC-2ECD-374D4288689D</generatorID>
+<ownerDesignName>enun1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefono_Persona" id="F0B25E90-E00B-CC27-4CCA-22E4C9F34FFB">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-26 18:01:44 UTC</createdTime>
+<generatorID>43A2101B-4C01-07A7-CBCF-954E749D012E</generatorID>
+<ownerDesignName>enun1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_Registro" id="D81001E8-DA51-BC9A-BB10-ACCDF0125A69">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-26 18:01:44 UTC</createdTime>
+<generatorID>2091931A-9DED-A03E-4EEF-C9905D431F4A</generatorID>
+<ownerDesignName>enun1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Direccion" id="3886EC39-D328-135F-BAFA-2DCA807EAE36">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-26 18:01:44 UTC</createdTime>
+<generatorID>15907AFD-2503-450F-45BF-3F60DB614500</generatorID>
+<ownerDesignName>enun1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipo_ID_Tipo" id="FC7AA831-0053-F2C0-6B58-A7FE62BBBE4D">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-26 18:01:44 UTC</createdTime>
+<generatorID>5FA1C80E-78B4-42B0-E119-770A5656DD1D</generatorID>
+<ownerDesignName>enun1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9A21F129-1125-FA0B-02CD-E623F110486E" referredColumn="F20B7817-B151-CF44-1E8D-D35D3019B3AA"/>
+</associations>
+</Column>
+<Column name="Codigo_Postal_ID_Codigo_Postal" id="0027C793-5203-F0A4-EDDC-03DE8334D436">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-26 18:01:44 UTC</createdTime>
+<generatorID>7B195334-3CFC-B86B-085E-9EE1B708C727</generatorID>
+<ownerDesignName>enun1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="560DCB2D-003C-A94B-3C4D-952A3E49B0B7" referredColumn="1B6478E6-BF7B-A302-8F7E-166159B9E741"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3B0755F0-3295-EC8B-44D8-F264CD927D7E" name="Persona_PK">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-26 18:01:44 UTC</createdTime>
+<generatorID>B142BADD-08A4-286A-0AE6-BE83C4AB32A4</generatorID>
+<ownerDesignName>enun1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8720BBE-A86A-2686-699C-A67C1CCFEACA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E4D30983-725E-E0B7-3D81-B9DA602ED72E" name="Persona_Codigo_Postal_FK">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-26 18:01:44 UTC</createdTime>
+<generatorID>A03C1182-180B-A8DA-7162-A984951873FE</generatorID>
+<ownerDesignName>enun1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0027C793-5203-F0A4-EDDC-03DE8334D436"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1778155B-398E-62AE-2A9B-53595C115362" name="Persona_Tipo_FK">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-26 18:01:44 UTC</createdTime>
+<generatorID>13A1BED2-566C-1B11-2369-1AF5610D3274</generatorID>
+<ownerDesignName>enun1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC7AA831-0053-F2C0-6B58-A7FE62BBBE4D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

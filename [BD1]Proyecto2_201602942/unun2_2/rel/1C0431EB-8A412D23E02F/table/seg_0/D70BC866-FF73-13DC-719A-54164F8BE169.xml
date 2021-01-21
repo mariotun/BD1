@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D70BC866-FF73-13DC-719A-54164F8BE169" name="Profesional">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:42:02 UTC</createdTime>
+<generatorID>1C41A03B-FCB0-9A3B-433A-A4B05D65A96D</generatorID>
+<ownerDesignName>unun2_2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Profesional" id="3C6C6D77-2469-159E-E528-06A767802210">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:42:02 UTC</createdTime>
+<generatorID>38B933B0-28B3-2BCB-6C0A-2FF7A804C97C</generatorID>
+<ownerDesignName>unun2_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_Profesional" id="B2EAB9CE-8535-F449-8CF3-BD88043E2D38">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:42:02 UTC</createdTime>
+<generatorID>C6CE4376-3F4E-29AF-D599-F597CFB0D5C0</generatorID>
+<ownerDesignName>unun2_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_Contrato_Profesional" id="912BF397-A941-00E1-7D90-D48337822A5B">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:42:02 UTC</createdTime>
+<generatorID>50778D4A-D27A-FC78-0AC3-9BABF2B96975</generatorID>
+<ownerDesignName>unun2_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Salario" id="303BCB6D-67CE-8E35-F298-1A6677BEBBD5">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:42:02 UTC</createdTime>
+<generatorID>944E2347-7A3B-75B7-86EE-AC65749B3E2B</generatorID>
+<ownerDesignName>unun2_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Comision" id="9092122A-A0C6-3AA9-FDF0-7271F872FA79">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:42:02 UTC</createdTime>
+<generatorID>165B1862-F9BF-2349-2B05-DB12EEC6B1A3</generatorID>
+<ownerDesignName>unun2_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7A87BC8E-B701-F0C9-6693-A06710E52300" name="Profesional_PK">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:42:02 UTC</createdTime>
+<generatorID>59D5D936-5E7B-84A6-B87A-2FFC88FB499B</generatorID>
+<ownerDesignName>unun2_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C6C6D77-2469-159E-E528-06A767802210"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

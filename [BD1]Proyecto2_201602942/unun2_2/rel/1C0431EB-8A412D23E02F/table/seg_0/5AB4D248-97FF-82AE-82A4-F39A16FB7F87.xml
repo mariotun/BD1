@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5AB4D248-97FF-82AE-82A4-F39A16FB7F87" name="Respuesta_Correcta">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:42:02 UTC</createdTime>
+<generatorID>282BF256-29DC-8146-C0B3-A5261253B662</generatorID>
+<ownerDesignName>unun2_2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Respuesta_Correcta" id="4BC25DB6-0CBE-26A9-FDCD-41B2A967997E">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:42:02 UTC</createdTime>
+<generatorID>C60C4560-2FC2-9F05-20C8-341534BFCDEB</generatorID>
+<ownerDesignName>unun2_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Respuesta_Correcta" id="574B7BAE-04F3-8C35-5076-35B1F3AD76CB">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:42:02 UTC</createdTime>
+<generatorID>63A70977-362A-19F2-68CA-E82EBA33C172</generatorID>
+<ownerDesignName>unun2_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pregunta_ID_Pregunta" id="317F1A3F-6345-85AE-C78D-2116FA338E5C">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:42:02 UTC</createdTime>
+<generatorID>2DC6B314-0451-B0C5-A01C-7BC81F6006FF</generatorID>
+<ownerDesignName>unun2_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="25FD0C6C-A4C6-7A91-4E10-0CCED3A6B3FE" referredColumn="EBF75AD6-DF06-7781-CA1D-694AFBD0CE7B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="92E4E905-DA88-25CE-F381-E82FF1EC6800" name="Respuesta_Correcta_PK">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:42:02 UTC</createdTime>
+<generatorID>461F2DF3-899B-754B-DBAF-462D722672A3</generatorID>
+<ownerDesignName>unun2_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BC25DB6-0CBE-26A9-FDCD-41B2A967997E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="475D6F71-7589-DFC9-1A73-C4021EF0A340" name="Respuesta_Correcta_Pregunta_FK">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:42:03 UTC</createdTime>
+<generatorID>6E674974-EC89-C88C-A193-4294CFD49944</generatorID>
+<ownerDesignName>unun2_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="317F1A3F-6345-85AE-C78D-2116FA338E5C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

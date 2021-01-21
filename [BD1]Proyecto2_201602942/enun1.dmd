@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="enun1" id="180A53D4-9150-0DF3-70E3-0A7775970B7D" version="3.5">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-26 16:56:15 UTC</createdTime>
+<ownerDesignName>enun1</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>180A53D4-9150-0DF3-70E3-0A7775970B7D</designId>
+</OSDM_Design>

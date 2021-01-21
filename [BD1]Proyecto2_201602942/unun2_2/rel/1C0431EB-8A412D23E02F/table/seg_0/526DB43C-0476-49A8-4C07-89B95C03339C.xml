@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="526DB43C-0476-49A8-4C07-89B95C03339C" name="Pais_Respuesta">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:42:02 UTC</createdTime>
+<generatorID>154C1651-D7CD-9800-63E6-1F13849B3A53</generatorID>
+<ownerDesignName>unun2_2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Pais_Respuesta" id="79FF05B4-F491-04E2-CDE3-17A15A8289E7">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:42:02 UTC</createdTime>
+<generatorID>336A8997-2E51-6E6C-D14A-A0139E5ECEE5</generatorID>
+<ownerDesignName>unun2_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Respuesta_Pais" id="FF15C044-A932-3A57-D65B-ECFEADD26B33">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:42:02 UTC</createdTime>
+<generatorID>B832BD36-8345-DB35-51F0-60D91BE5D1D4</generatorID>
+<ownerDesignName>unun2_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Respuesta_ID_Respuesta" id="29AB963B-CFF6-7F4A-B0BB-58EFCA1622DF">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:42:02 UTC</createdTime>
+<generatorID>A9E57701-DEC5-D26C-2FA2-ECCF0B5D0A82</generatorID>
+<ownerDesignName>unun2_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6738B80A-A997-1F79-FFC1-2F299B3427DD" referredColumn="EDE1067B-0B19-283D-6E65-B8CC141C2F4E"/>
+</associations>
+</Column>
+<Column name="Pais_ID_Pais" id="818ADC82-2553-C9C5-8FDB-93CC624D7561">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:42:02 UTC</createdTime>
+<generatorID>CBD27F60-BAFA-AD1F-FBDB-A59323E9D943</generatorID>
+<ownerDesignName>unun2_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="290777D1-486C-1AC0-AC4F-558D12F761C7" referredColumn="87D20E15-0EE2-AE4A-8627-897524E9FA6E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1E72C808-A4B6-5A55-D670-35E3E3EC18FC" name="Pais_Respuesta_PK">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:42:02 UTC</createdTime>
+<generatorID>A64E67ED-6E11-C5BC-13EB-3E6DC187E0B6</generatorID>
+<ownerDesignName>unun2_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79FF05B4-F491-04E2-CDE3-17A15A8289E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A3BAE464-DE88-C25C-BFD2-CA4F374827C8" name="Pais_Respuesta_Pais_FK">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:42:03 UTC</createdTime>
+<generatorID>6F31A8EC-48AB-01BB-E475-8DAC940D3C4E</generatorID>
+<ownerDesignName>unun2_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="818ADC82-2553-C9C5-8FDB-93CC624D7561"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="05A0EB1D-6D80-6A1D-1B51-6C315769C05A" name="Pais_Respuesta_Respuesta_FK">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:42:03 UTC</createdTime>
+<generatorID>BFD43F7E-0F36-8593-A43B-1A9B402098A6</generatorID>
+<ownerDesignName>unun2_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="29AB963B-CFF6-7F4A-B0BB-58EFCA1622DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="region-ciudad" directorySegmentName="seg_0" id="B052BDD7-DFAB-BAAC-BC63-45C084536A3F">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-26 17:51:39 UTC</createdTime>
+<ownerDesignName>enun1</ownerDesignName>
+<engineerTo>
+<item key="44673A24-6264-7619-64F6-C097BEC7FF60" value="true"/>
+</engineerTo>
+<sourcePk>D75C5B40-CBE2-CD3A-E896-411A0E5E392B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>08BFF3FC-DCDF-A3B6-15A6-781CB7E39B01</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>22BDBBA2-200D-5D95-3C3E-3AE64CF9E2F9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

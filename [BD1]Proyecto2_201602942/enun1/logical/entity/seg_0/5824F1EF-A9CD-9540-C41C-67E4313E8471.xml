@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5824F1EF-A9CD-9540-C41C-67E4313E8471" name="Transaccion">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-26 17:15:05 UTC</createdTime>
+<ownerDesignName>enun1</ownerDesignName>
+<engineerTo>
+<item key="44673A24-6264-7619-64F6-C097BEC7FF60" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Transaccion" id="A35912FE-6ECF-1A43-58E7-274D02DC96F7">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-26 17:15:30 UTC</createdTime>
+<ownerDesignName>enun1</ownerDesignName>
+<engineerTo>
+<item key="44673A24-6264-7619-64F6-C097BEC7FF60" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cantidad" id="36DAEF74-3BEF-F9BB-C9A9-BE5D111F42A3">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-26 17:15:51 UTC</createdTime>
+<ownerDesignName>enun1</ownerDesignName>
+<engineerTo>
+<item key="44673A24-6264-7619-64F6-C097BEC7FF60" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Total_Transaccion" id="EFEC5F35-3166-8617-37A1-3E9D522EBB06">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-26 17:16:19 UTC</createdTime>
+<ownerDesignName>enun1</ownerDesignName>
+<engineerTo>
+<item key="44673A24-6264-7619-64F6-C097BEC7FF60" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Compania" id="2EAB16DA-F4F1-237A-2D15-5E39454CB299">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-26 17:50:55 UTC</createdTime>
+<generatorID>7E44495D-2EF3-74B4-526C-CE26F8A21B7D</generatorID>
+<ownerDesignName>enun1</ownerDesignName>
+<engineerTo>
+<item key="44673A24-6264-7619-64F6-C097BEC7FF60" value="true"/>
+</engineerTo>
+<referedAttribute>509B871E-0A38-2878-C09C-12930ACDEC4D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Persona" id="70B90A90-F0DD-B714-3642-EDC224802849">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-26 17:55:46 UTC</createdTime>
+<generatorID>80267CB3-4E8B-432B-A2D8-A2586B43E145</generatorID>
+<ownerDesignName>enun1</ownerDesignName>
+<engineerTo>
+<item key="44673A24-6264-7619-64F6-C097BEC7FF60" value="true"/>
+</engineerTo>
+<referedAttribute>43E3C113-9C7E-7686-A0AF-76B9E3A37B4F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Producto" id="20FB7A13-1355-0E34-631C-492DCD52349F">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-26 17:56:03 UTC</createdTime>
+<generatorID>1BD90BD8-7694-3563-0E9D-2C849FAB808B</generatorID>
+<ownerDesignName>enun1</ownerDesignName>
+<engineerTo>
+<item key="44673A24-6264-7619-64F6-C097BEC7FF60" value="true"/>
+</engineerTo>
+<referedAttribute>5B4FF4FA-4BA0-683B-55A6-67907768D52C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1E321E60-129B-541B-0B78-D141C0081839" name="Transaccion PK">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-26 17:15:45 UTC</createdTime>
+<ownerDesignName>enun1</ownerDesignName>
+<engineerTo>
+<item key="44673A24-6264-7619-64F6-C097BEC7FF60" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A35912FE-6ECF-1A43-58E7-274D02DC96F7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

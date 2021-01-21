@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="07247680-F9CC-DA46-7248-3DD6E0680DD1" name="Inventor-Invento">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:42:02 UTC</createdTime>
+<generatorID>19008D19-94DA-481B-8B92-13589428459B</generatorID>
+<ownerDesignName>unun2_2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_InventorInvento" id="67FF48BC-AA08-1EF6-DC8B-799E9102739F">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:42:02 UTC</createdTime>
+<generatorID>877898B7-20A3-7E6D-D8D4-08F6201FE4DD</generatorID>
+<ownerDesignName>unun2_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Inventor_ID_Inventor" id="AFD643BA-E6E7-5393-F2D3-512C8AAE069E">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:42:02 UTC</createdTime>
+<generatorID>81D45DD0-036E-2E52-7431-4ACBEA5CAF02</generatorID>
+<ownerDesignName>unun2_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2D6A8F95-CDB1-F159-E0A8-57AB1AEE2221" referredColumn="5C33A746-1F88-7E12-BBC9-87A1B30D3584"/>
+</associations>
+</Column>
+<Column name="Invento_ID_Invento" id="64F98BA9-B1DF-BDD4-EDAC-EBCB5EA11779">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:42:02 UTC</createdTime>
+<generatorID>D090CAB9-1905-8EBC-156D-E72E76206A3F</generatorID>
+<ownerDesignName>unun2_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8CCE7B66-9EDB-6834-5138-03C46C092E61" referredColumn="BD87EDDE-A518-2A03-D943-1FD5039B37A2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CA219604-5AED-372E-EA71-51F8C2968356" name="Inventor-Invento_PK">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:42:02 UTC</createdTime>
+<generatorID>F55F7967-48B2-D87E-1048-C1F039545DB2</generatorID>
+<ownerDesignName>unun2_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67FF48BC-AA08-1EF6-DC8B-799E9102739F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="197E06CE-3E87-C3DE-1D7F-5D7AF6B70707" name="Inventor-Invento_Invento_FK">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:42:03 UTC</createdTime>
+<generatorID>0F07C087-2682-810E-070E-9010E588F399</generatorID>
+<ownerDesignName>unun2_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64F98BA9-B1DF-BDD4-EDAC-EBCB5EA11779"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D1FA8F40-ADCF-3F2B-0AA8-5505C20225FA" name="Inventor-Invento_Inventor_FK">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:42:03 UTC</createdTime>
+<generatorID>7CAA7BEF-A23E-7058-EAB9-FC28C12304B9</generatorID>
+<ownerDesignName>unun2_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AFD643BA-E6E7-5393-F2D3-512C8AAE069E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

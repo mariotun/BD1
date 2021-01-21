@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="continente-region" directorySegmentName="seg_0" id="7FD79482-1521-073F-B4F5-F155FD51DEBE">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 04:38:38 UTC</createdTime>
+<ownerDesignName>unun2_2</ownerDesignName>
+<engineerTo>
+<item key="1C0431EB-D100-5BA4-AB45-8A412D23E02F" value="true"/>
+</engineerTo>
+<sourcePk>598B27F2-BE18-8581-47C1-0DBC7FB31B0D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EDAEF6F3-C55A-A288-3393-3FFDCB29491A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FC35E4A0-2DBA-7D7F-2928-97516BEEE379</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

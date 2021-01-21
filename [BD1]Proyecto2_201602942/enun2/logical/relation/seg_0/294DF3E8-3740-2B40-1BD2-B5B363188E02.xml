@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="region-pais" directorySegmentName="seg_0" id="294DF3E8-3740-2B40-1BD2-B5B363188E02">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 21:46:51 UTC</createdTime>
+<ownerDesignName>enun2</ownerDesignName>
+<engineerTo>
+<item key="F596A855-89C3-B842-A2D8-168827B2104F" value="true"/>
+</engineerTo>
+<sourcePk>FE14036E-90C7-1C93-1B7D-EFA5E3F33F68</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>42F9B729-7909-A2A5-05A0-05ABE92D1462</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>586849F9-4D67-195D-6CC6-E2AAD290282A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

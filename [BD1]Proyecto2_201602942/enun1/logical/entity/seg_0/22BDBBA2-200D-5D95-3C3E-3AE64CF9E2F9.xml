@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="22BDBBA2-200D-5D95-3C3E-3AE64CF9E2F9" name="Ciudad">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-26 17:23:32 UTC</createdTime>
+<ownerDesignName>enun1</ownerDesignName>
+<engineerTo>
+<item key="44673A24-6264-7619-64F6-C097BEC7FF60" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Ciudad" id="73B615B1-2D64-C7D3-199D-91393CB0E8FA">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-26 17:23:45 UTC</createdTime>
+<ownerDesignName>enun1</ownerDesignName>
+<engineerTo>
+<item key="44673A24-6264-7619-64F6-C097BEC7FF60" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre_Ciudad" id="8EB56E9B-F6B5-5385-3A97-81EFD258A755">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-26 17:24:20 UTC</createdTime>
+<ownerDesignName>enun1</ownerDesignName>
+<engineerTo>
+<item key="44673A24-6264-7619-64F6-C097BEC7FF60" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Region" id="956334F3-398C-98A9-8D8E-1F927DD5B650">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-26 17:51:39 UTC</createdTime>
+<generatorID>B052BDD7-DFAB-BAAC-BC63-45C084536A3F</generatorID>
+<ownerDesignName>enun1</ownerDesignName>
+<engineerTo>
+<item key="44673A24-6264-7619-64F6-C097BEC7FF60" value="true"/>
+</engineerTo>
+<referedAttribute>24C16BBD-118A-7C76-31FD-46A0748AB89D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="85259EB1-F40E-21DE-D451-FA8CD05B7090" name="Ciudad PK">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-26 17:24:14 UTC</createdTime>
+<ownerDesignName>enun1</ownerDesignName>
+<engineerTo>
+<item key="44673A24-6264-7619-64F6-C097BEC7FF60" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>73B615B1-2D64-C7D3-199D-91393CB0E8FA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

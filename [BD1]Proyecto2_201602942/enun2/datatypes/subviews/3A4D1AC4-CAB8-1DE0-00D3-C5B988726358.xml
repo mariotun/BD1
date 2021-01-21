@@ -1,0 +1,26 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.datatypes.DPVDataTypes" id="3A4D1AC4-CAB8-1DE0-00D3-C5B988726358">
+<createdBy>mario</createdBy>
+<modifiedBy>mario</modifiedBy>
+<createdTime>2020-12-31 04:27:00 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>true</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.datatypes.TVStructuredType" oid="47E390DE-0671-C4B1-8428-0F45CBEE18F8" otype="StructuredType" vid="7834F681-132C-D6C8-98F3-7BCFA20EDD27">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="20" y="20" width="100" height="100"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.datatypes.TVStructuredType" oid="F72C39E0-D1CA-8821-2AD7-A1E95A37D3D1" otype="StructuredType" vid="FC03860F-C826-90ED-2DFF-1006A89C935E">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="20" y="20" width="100" height="100"/>
+</OView>
+</objectViews>
+</Diagram>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="95DD3B31-8524-35D2-5C58-9E90B1E66E81" name="profesional-area">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:27:31 UTC</createdTime>
+<ownerDesignName>enun2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Profesional_ID_Profesional" id="8B68C0B9-0888-D143-1290-1FE5AF25B8EB">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:27:31 UTC</createdTime>
+<ownerDesignName>enun2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D9EE8B16-7A64-9376-5299-2BCD3F411E5F" referredColumn="8658794C-E1C9-E628-D513-AF4ED137E78B"/>
+</associations>
+</Column>
+<Column name="Area_Investigacion_ID_Area_Inv" id="0EDB7CD9-9067-FCE9-0E12-1390FD71BA21">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:27:31 UTC</createdTime>
+<ownerDesignName>enun2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="83B5671D-E468-161D-3F13-B0BC27E81353" referredColumn="EEE0DC13-5E4C-907A-2561-79374BBBD852"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8DE4ABA0-1CA1-0D0D-A014-045CED183CB5" name="profesional-area_PK">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:27:31 UTC</createdTime>
+<ownerDesignName>enun2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B68C0B9-0888-D143-1290-1FE5AF25B8EB"/>
+<colUsage columnID="0EDB7CD9-9067-FCE9-0E12-1390FD71BA21"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A7618C17-F747-CC6C-B190-18DA18957D22" name="profesional-area_Profesional_FK">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:27:31 UTC</createdTime>
+<generatorID>692FE99C-4956-0E98-9745-7628C191BA73</generatorID>
+<ownerDesignName>enun2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B68C0B9-0888-D143-1290-1FE5AF25B8EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5B8576AA-477B-EAC8-478B-E6C9950AE25A" name="profesional-area_Area_Investigacion_FK">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:27:31 UTC</createdTime>
+<generatorID>692FE99C-4956-0E98-9745-7628C191BA73</generatorID>
+<ownerDesignName>enun2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0EDB7CD9-9067-FCE9-0E12-1390FD71BA21"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

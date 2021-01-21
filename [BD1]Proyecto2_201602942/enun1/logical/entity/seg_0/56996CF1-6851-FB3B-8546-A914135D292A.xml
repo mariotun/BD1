@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="56996CF1-6851-FB3B-8546-A914135D292A" name="Persona">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-26 17:41:40 UTC</createdTime>
+<ownerDesignName>enun1</ownerDesignName>
+<engineerTo>
+<item key="44673A24-6264-7619-64F6-C097BEC7FF60" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Persona" id="43E3C113-9C7E-7686-A0AF-76B9E3A37B4F">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-26 17:41:50 UTC</createdTime>
+<ownerDesignName>enun1</ownerDesignName>
+<engineerTo>
+<item key="44673A24-6264-7619-64F6-C097BEC7FF60" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre_Persona" id="82193A54-3A31-B015-318E-9F3706FC197A">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-26 17:42:10 UTC</createdTime>
+<ownerDesignName>enun1</ownerDesignName>
+<engineerTo>
+<item key="44673A24-6264-7619-64F6-C097BEC7FF60" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Correo_Persona" id="4B17DC23-B534-02AC-2ECD-374D4288689D">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-26 17:43:42 UTC</createdTime>
+<ownerDesignName>enun1</ownerDesignName>
+<engineerTo>
+<item key="44673A24-6264-7619-64F6-C097BEC7FF60" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefono_Persona" id="43A2101B-4C01-07A7-CBCF-954E749D012E">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-26 17:44:39 UTC</createdTime>
+<ownerDesignName>enun1</ownerDesignName>
+<engineerTo>
+<item key="44673A24-6264-7619-64F6-C097BEC7FF60" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha_Registro" id="2091931A-9DED-A03E-4EEF-C9905D431F4A">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-26 17:45:18 UTC</createdTime>
+<ownerDesignName>enun1</ownerDesignName>
+<engineerTo>
+<item key="44673A24-6264-7619-64F6-C097BEC7FF60" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Direccion" id="15907AFD-2503-450F-45BF-3F60DB614500">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-26 17:45:58 UTC</createdTime>
+<ownerDesignName>enun1</ownerDesignName>
+<engineerTo>
+<item key="44673A24-6264-7619-64F6-C097BEC7FF60" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Tipo" id="5FA1C80E-78B4-42B0-E119-770A5656DD1D">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-26 17:50:09 UTC</createdTime>
+<generatorID>13A1BED2-566C-1B11-2369-1AF5610D3274</generatorID>
+<ownerDesignName>enun1</ownerDesignName>
+<engineerTo>
+<item key="44673A24-6264-7619-64F6-C097BEC7FF60" value="true"/>
+</engineerTo>
+<referedAttribute>186D7CC7-D1CA-AF4E-673C-F4B35C0DE365</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Codigo_Postal" id="7B195334-3CFC-B86B-085E-9EE1B708C727">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-26 17:55:20 UTC</createdTime>
+<generatorID>A03C1182-180B-A8DA-7162-A984951873FE</generatorID>
+<ownerDesignName>enun1</ownerDesignName>
+<engineerTo>
+<item key="44673A24-6264-7619-64F6-C097BEC7FF60" value="true"/>
+</engineerTo>
+<referedAttribute>4EB28243-BC7F-9DE1-218F-C8B002CD2D83</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B142BADD-08A4-286A-0AE6-BE83C4AB32A4" name="Persona PK">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-26 17:42:03 UTC</createdTime>
+<ownerDesignName>enun1</ownerDesignName>
+<engineerTo>
+<item key="44673A24-6264-7619-64F6-C097BEC7FF60" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>43E3C113-9C7E-7686-A0AF-76B9E3A37B4F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

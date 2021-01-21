@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="producto-transaccion" directorySegmentName="seg_0" id="1BD90BD8-7694-3563-0E9D-2C849FAB808B">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-26 17:56:03 UTC</createdTime>
+<ownerDesignName>enun1</ownerDesignName>
+<engineerTo>
+<item key="44673A24-6264-7619-64F6-C097BEC7FF60" value="true"/>
+</engineerTo>
+<sourcePk>886AADD1-FED9-0DBE-5899-F4D80774159C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DFA8A0D3-4DBF-428F-7162-D9A9A503D90F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5824F1EF-A9CD-9540-C41C-67E4313E8471</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

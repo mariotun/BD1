@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5C7A36D1-E0E9-C018-678F-C175F854EB89" name="Pregunta">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:17:19 UTC</createdTime>
+<ownerDesignName>unun2_2</ownerDesignName>
+<engineerTo>
+<item key="1C0431EB-D100-5BA4-AB45-8A412D23E02F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Pregunta" id="EF912FBF-488D-C967-608C-C52DE97DB9F1">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:17:33 UTC</createdTime>
+<ownerDesignName>unun2_2</ownerDesignName>
+<engineerTo>
+<item key="1C0431EB-D100-5BA4-AB45-8A412D23E02F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pregunta" id="88CBE39D-8081-76CC-2A23-9CD2FBAA639C">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:17:48 UTC</createdTime>
+<ownerDesignName>unun2_2</ownerDesignName>
+<engineerTo>
+<item key="1C0431EB-D100-5BA4-AB45-8A412D23E02F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Encuesta" id="88A48C80-0738-D9AC-C4BB-EBB98AA5A661">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:21:00 UTC</createdTime>
+<generatorID>C3B96779-4E8A-3140-D656-7997C06CDA2F</generatorID>
+<ownerDesignName>unun2_2</ownerDesignName>
+<engineerTo>
+<item key="1C0431EB-D100-5BA4-AB45-8A412D23E02F" value="true"/>
+</engineerTo>
+<referedAttribute>8B512060-1152-32E1-65B8-6FB2995CECC1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9FD33745-502C-86C4-EC7E-7902A7386CC5" name="Pregunta PK">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:17:46 UTC</createdTime>
+<ownerDesignName>unun2_2</ownerDesignName>
+<engineerTo>
+<item key="1C0431EB-D100-5BA4-AB45-8A412D23E02F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EF912FBF-488D-C967-608C-C52DE97DB9F1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

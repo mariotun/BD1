@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BD306753-19CC-8986-AB7A-262359A920FB" name="inventor-invento">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:27:31 UTC</createdTime>
+<ownerDesignName>enun2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Inventor_ID_Inventor" id="2D884944-4383-7E72-A233-EF4E44E8816E">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:27:31 UTC</createdTime>
+<ownerDesignName>enun2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8F73C9DE-CF30-FA0F-4F4C-D516E79161FE" referredColumn="DACF86F2-3DE9-015F-7936-3B80A0DF720A"/>
+</associations>
+</Column>
+<Column name="Invento_ID_Invento" id="EAA5D752-6175-11DE-D55A-B15A776B8CD0">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:27:31 UTC</createdTime>
+<ownerDesignName>enun2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7C545E09-12B7-83B3-837C-BF5650602D81" referredColumn="D9CFB2C6-AFEB-175E-341B-C6DE9325CD67"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E3291D78-B1AF-7F1A-8D3A-BA7BEB176C6D" name="inventor-invento_PK">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:27:31 UTC</createdTime>
+<ownerDesignName>enun2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D884944-4383-7E72-A233-EF4E44E8816E"/>
+<colUsage columnID="EAA5D752-6175-11DE-D55A-B15A776B8CD0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="99E1C853-53AF-7AF1-3C47-AFDA5AA3F2BA" name="inventor-invento_Inventor_FK">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:27:31 UTC</createdTime>
+<generatorID>D87846FC-27D4-B3E2-7268-8DF92F75EA48</generatorID>
+<ownerDesignName>enun2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D884944-4383-7E72-A233-EF4E44E8816E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2864B794-533B-1DC0-E0BA-7B185498748A" name="inventor-invento_Invento_FK">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:27:31 UTC</createdTime>
+<generatorID>D87846FC-27D4-B3E2-7268-8DF92F75EA48</generatorID>
+<ownerDesignName>enun2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EAA5D752-6175-11DE-D55A-B15A776B8CD0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D4F4B60D-5743-C8CC-F5C5-29E6BC89259D" name="Invento">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 17:10:55 UTC</createdTime>
+<ownerDesignName>enun2</ownerDesignName>
+<engineerTo>
+<item key="F596A855-89C3-B842-A2D8-168827B2104F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Invento" id="275AD905-34EA-8988-545F-E7613A3B3946">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 17:11:05 UTC</createdTime>
+<ownerDesignName>enun2</ownerDesignName>
+<engineerTo>
+<item key="F596A855-89C3-B842-A2D8-168827B2104F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre_Invento" id="37FDF767-67D5-4FD0-BC42-86281C0FA409">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 17:11:21 UTC</createdTime>
+<ownerDesignName>enun2</ownerDesignName>
+<engineerTo>
+<item key="F596A855-89C3-B842-A2D8-168827B2104F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Año_del_Invento" id="7A622450-230A-AF0E-D6D8-3A3498BB28AF">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 18:48:05 UTC</createdTime>
+<ownerDesignName>enun2</ownerDesignName>
+<engineerTo>
+<item key="F596A855-89C3-B842-A2D8-168827B2104F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Profesional" id="BF3E1D3D-FF41-4D9F-782A-B1F28E02078A">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:10:09 UTC</createdTime>
+<generatorID>11D1795D-685A-6EDE-0BBF-BCC6FADCC09F</generatorID>
+<ownerDesignName>enun2</ownerDesignName>
+<engineerTo>
+<item key="F596A855-89C3-B842-A2D8-168827B2104F" value="true"/>
+</engineerTo>
+<referedAttribute>03CD3951-9BAA-26BE-C9A6-3BBA87CEEF69</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Pais" id="7707C646-546B-454E-D9E0-F0E8D9174F5B">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:16:23 UTC</createdTime>
+<generatorID>99C0D1CB-18CB-CE46-29C4-17F06F1766A5</generatorID>
+<ownerDesignName>enun2</ownerDesignName>
+<engineerTo>
+<item key="F596A855-89C3-B842-A2D8-168827B2104F" value="true"/>
+</engineerTo>
+<referedAttribute>43D6C420-C5B1-D9CA-6B4E-7B63E388F061</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="71B9C941-0016-D233-C2D3-0CE28ABD9CD3" name="Invento PK">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 17:11:16 UTC</createdTime>
+<ownerDesignName>enun2</ownerDesignName>
+<engineerTo>
+<item key="F596A855-89C3-B842-A2D8-168827B2104F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>275AD905-34EA-8988-545F-E7613A3B3946</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A7B3C231-3A00-DAA5-6511-C517DB216792" containerWithKeyObject="70CA1BBE-D855-626D-47D1-E346F466E26F" localFKIndex="C5A1B512-A8C9-FC27-526A-5C2D0D5EAB71" name="Invento_Profesional_FK">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:27:31 UTC</createdTime>
+<generatorID>11D1795D-685A-6EDE-0BBF-BCC6FADCC09F</generatorID>
+<ownerDesignName>enun2</ownerDesignName>
+<referredTableLongName>Profesional</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FA953152-3E70-11AA-C7CA-B20F6550B7E1</referredTableID>
+<keyObject>083A7F44-CE36-C5BE-3A79-EEC1C39162B9</keyObject>
+<referredKeyID>083A7F44-CE36-C5BE-3A79-EEC1C39162B9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Profesional</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

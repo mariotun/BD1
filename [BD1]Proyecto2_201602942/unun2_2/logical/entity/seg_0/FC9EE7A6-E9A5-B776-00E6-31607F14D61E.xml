@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FC9EE7A6-E9A5-B776-00E6-31607F14D61E" name="Profesional_Area">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 04:59:49 UTC</createdTime>
+<ownerDesignName>unun2_2</ownerDesignName>
+<engineerTo>
+<item key="1C0431EB-D100-5BA4-AB45-8A412D23E02F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Profesional_Area" id="79B73037-112B-F6E1-4BA3-0A34FD2CD95C">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:00:22 UTC</createdTime>
+<ownerDesignName>unun2_2</ownerDesignName>
+<engineerTo>
+<item key="1C0431EB-D100-5BA4-AB45-8A412D23E02F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Area" id="85542B33-F8D2-547B-7905-6367D1036892">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:03:41 UTC</createdTime>
+<generatorID>EEBB2A5C-E3AA-2D61-8383-B0263257CFF7</generatorID>
+<ownerDesignName>unun2_2</ownerDesignName>
+<engineerTo>
+<item key="1C0431EB-D100-5BA4-AB45-8A412D23E02F" value="true"/>
+</engineerTo>
+<referedAttribute>5EA9791A-9670-8ED9-DF99-E3872BA5171F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Profesional" id="E4F88FE5-E2E6-8884-C0B5-B86C4FCF7A3A">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:05:11 UTC</createdTime>
+<generatorID>C5D06704-3BBA-98E5-5612-C233AB71B25E</generatorID>
+<ownerDesignName>unun2_2</ownerDesignName>
+<engineerTo>
+<item key="1C0431EB-D100-5BA4-AB45-8A412D23E02F" value="true"/>
+</engineerTo>
+<referedAttribute>38B933B0-28B3-2BCB-6C0A-2FF7A804C97C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="862797AA-5695-81FE-4B7C-A56A60610FB6" name="Profesional_Area PK">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:00:36 UTC</createdTime>
+<ownerDesignName>unun2_2</ownerDesignName>
+<engineerTo>
+<item key="1C0431EB-D100-5BA4-AB45-8A412D23E02F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>79B73037-112B-F6E1-4BA3-0A34FD2CD95C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

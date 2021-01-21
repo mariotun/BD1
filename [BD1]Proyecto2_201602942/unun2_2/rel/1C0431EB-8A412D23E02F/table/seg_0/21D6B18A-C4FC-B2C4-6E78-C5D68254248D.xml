@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="21D6B18A-C4FC-B2C4-6E78-C5D68254248D" name="Pregunta">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:42:02 UTC</createdTime>
+<generatorID>5C7A36D1-E0E9-C018-678F-C175F854EB89</generatorID>
+<ownerDesignName>unun2_2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Pregunta" id="EBF75AD6-DF06-7781-CA1D-694AFBD0CE7B">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:42:02 UTC</createdTime>
+<generatorID>EF912FBF-488D-C967-608C-C52DE97DB9F1</generatorID>
+<ownerDesignName>unun2_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pregunta" id="D0EF4EC8-9A48-0C89-EEF2-6CED95ADBF1F">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:42:02 UTC</createdTime>
+<generatorID>88CBE39D-8081-76CC-2A23-9CD2FBAA639C</generatorID>
+<ownerDesignName>unun2_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Encuesta_ID_Encuesta" id="1935BB01-F8CC-0E7D-F6E0-0114BB658F07">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:42:02 UTC</createdTime>
+<generatorID>88A48C80-0738-D9AC-C4BB-EBB98AA5A661</generatorID>
+<ownerDesignName>unun2_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="41AEFEE4-9B41-E79F-4033-8C2EDB7FA8B6" referredColumn="691AD984-F3EC-D809-2414-4D92A8791538"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="995B7CBF-176B-4FBB-91AB-1525F21714E9" name="Pregunta_PK">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:42:02 UTC</createdTime>
+<generatorID>9FD33745-502C-86C4-EC7E-7902A7386CC5</generatorID>
+<ownerDesignName>unun2_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EBF75AD6-DF06-7781-CA1D-694AFBD0CE7B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CF978560-547F-953B-8CF0-A3EE2A6E5BFA" name="Pregunta_Encuesta_FK">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:42:02 UTC</createdTime>
+<generatorID>C3B96779-4E8A-3140-D656-7997C06CDA2F</generatorID>
+<ownerDesignName>unun2_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1935BB01-F8CC-0E7D-F6E0-0114BB658F07"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

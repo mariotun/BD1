@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="invento-pais" directorySegmentName="seg_0" id="20217550-D7A1-E614-D3BC-680D8B230C50">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:20:37 UTC</createdTime>
+<ownerDesignName>enun2</ownerDesignName>
+<engineerTo>
+<item key="F596A855-89C3-B842-A2D8-168827B2104F" value="true"/>
+</engineerTo>
+<sourcePk>71B9C941-0016-D233-C2D3-0CE28ABD9CD3</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D4F4B60D-5743-C8CC-F5C5-29E6BC89259D</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>586849F9-4D67-195D-6CC6-E2AAD290282A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FA953152-3E70-11AA-C7CA-B20F6550B7E1" name="Profesional">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:27:31 UTC</createdTime>
+<generatorID>2EC2C053-C1CA-CC0C-9ECC-8F55A2A4DE5F</generatorID>
+<ownerDesignName>enun2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Profesional" id="8658794C-E1C9-E628-D513-AF4ED137E78B">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:27:31 UTC</createdTime>
+<generatorID>03CD3951-9BAA-26BE-C9A6-3BBA87CEEF69</generatorID>
+<ownerDesignName>enun2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_Profesional" id="8A817DFA-3672-98F0-814A-3D6BE75CF4A4">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:27:31 UTC</createdTime>
+<generatorID>E713772E-B6A8-34AC-BED3-1C153EB5A1C8</generatorID>
+<ownerDesignName>enun2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_Contrato" id="08450CD0-E240-16A8-3A17-2C09132BC1BE">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:27:31 UTC</createdTime>
+<generatorID>A7965470-AC3B-598C-A4CF-F9EBAADA821D</generatorID>
+<ownerDesignName>enun2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Salario" id="9A6D0F5A-99DC-9A94-25E9-8C43782956D1">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:27:31 UTC</createdTime>
+<generatorID>1D40FB35-F42A-68EB-1AA1-C3744850EBD0</generatorID>
+<ownerDesignName>enun2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Comision" id="79122FA7-48A3-1D39-A201-3863E960A4D8">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:27:31 UTC</createdTime>
+<generatorID>6A671941-B939-BBD5-C70B-BB2BD161A185</generatorID>
+<ownerDesignName>enun2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Area_Investigacion" id="5726A9DF-4EDB-6F52-A917-E663F6A67E24">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:27:31 UTC</createdTime>
+<generatorID>A05F93D2-F849-653D-6151-820919BF56A3</generatorID>
+<ownerDesignName>enun2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Jefe_de_Area" id="109B40A2-A2FD-FF15-EA09-6BE29B78CF74">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:27:31 UTC</createdTime>
+<generatorID>CC9E4CA6-E9D6-F3AD-FF14-684D934E2069</generatorID>
+<ownerDesignName>enun2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Area_Investigacion_ID_Area_Inv" id="479BAA4C-13F2-5FE4-6749-8D61F4D223F1">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:27:31 UTC</createdTime>
+<generatorID>E45F86FA-DB91-02C7-B9DA-DBEF8EE1FF25</generatorID>
+<ownerDesignName>enun2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2B36805A-A950-AC98-6F5B-CA843B3EC7AD" referredColumn="EEE0DC13-5E4C-907A-2561-79374BBBD852"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="083A7F44-CE36-C5BE-3A79-EEC1C39162B9" name="Profesional_PK">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:27:31 UTC</createdTime>
+<generatorID>8D44EC99-D99F-8270-6187-57D1FB7BB315</generatorID>
+<ownerDesignName>enun2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8658794C-E1C9-E628-D513-AF4ED137E78B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="062EC83C-30BA-1F55-0FF0-E1761ACCB9E0" name="Profesional__IDX">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:27:31 UTC</createdTime>
+<ownerDesignName>enun2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>3BDB72FC-3E10-BC2B-DB67-2E03B0202FC7</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="479BAA4C-13F2-5FE4-6749-8D61F4D223F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EA9482FB-03E1-5CCE-EFAB-A1487686B6C0" name="Profesional_Area_Investigacion_FK">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:27:31 UTC</createdTime>
+<generatorID>3BDB72FC-3E10-BC2B-DB67-2E03B0202FC7</generatorID>
+<ownerDesignName>enun2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="479BAA4C-13F2-5FE4-6749-8D61F4D223F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

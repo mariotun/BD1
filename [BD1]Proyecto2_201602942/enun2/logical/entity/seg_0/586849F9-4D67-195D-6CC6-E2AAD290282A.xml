@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="586849F9-4D67-195D-6CC6-E2AAD290282A" name="Pais">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 17:16:27 UTC</createdTime>
+<ownerDesignName>enun2</ownerDesignName>
+<engineerTo>
+<item key="F596A855-89C3-B842-A2D8-168827B2104F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Pais" id="43D6C420-C5B1-D9CA-6B4E-7B63E388F061">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 17:16:33 UTC</createdTime>
+<ownerDesignName>enun2</ownerDesignName>
+<engineerTo>
+<item key="F596A855-89C3-B842-A2D8-168827B2104F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre_Pais" id="1D812FDE-97DD-AEE6-4C56-41EF6E32EFEF">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 17:16:57 UTC</createdTime>
+<ownerDesignName>enun2</ownerDesignName>
+<engineerTo>
+<item key="F596A855-89C3-B842-A2D8-168827B2104F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Capital_Pais" id="950845DC-5E28-367A-B531-44FBD8F2511F">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 17:17:19 UTC</createdTime>
+<ownerDesignName>enun2</ownerDesignName>
+<engineerTo>
+<item key="F596A855-89C3-B842-A2D8-168827B2104F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Poblacion_Pais" id="9F50277D-A002-AA1C-1057-5E1F07BD81C5">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 17:18:15 UTC</createdTime>
+<ownerDesignName>enun2</ownerDesignName>
+<engineerTo>
+<item key="F596A855-89C3-B842-A2D8-168827B2104F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Area_KM2" id="8B8257EB-49E7-59AA-02F6-9E8CCFFBE94E">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 17:19:03 UTC</createdTime>
+<ownerDesignName>enun2</ownerDesignName>
+<engineerTo>
+<item key="F596A855-89C3-B842-A2D8-168827B2104F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PFrontera" id="4A7B2D66-16AE-FB53-25FE-B199A9BB5DB3">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 17:19:34 UTC</createdTime>
+<ownerDesignName>enun2</ownerDesignName>
+<engineerTo>
+<item key="F596A855-89C3-B842-A2D8-168827B2104F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Region" id="9B067BE2-25BA-61BC-A26F-ACA0D551052E">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 21:46:51 UTC</createdTime>
+<generatorID>294DF3E8-3740-2B40-1BD2-B5B363188E02</generatorID>
+<ownerDesignName>enun2</ownerDesignName>
+<engineerTo>
+<item key="F596A855-89C3-B842-A2D8-168827B2104F" value="true"/>
+</engineerTo>
+<referedAttribute>1295FF21-D6B1-9EFF-2DB6-32301AC27BE2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Invento" id="03ACACE1-3BE4-A541-E121-BB977FF84211">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:20:37 UTC</createdTime>
+<generatorID>20217550-D7A1-E614-D3BC-680D8B230C50</generatorID>
+<ownerDesignName>enun2</ownerDesignName>
+<engineerTo>
+<item key="F596A855-89C3-B842-A2D8-168827B2104F" value="true"/>
+</engineerTo>
+<referedAttribute>275AD905-34EA-8988-545F-E7613A3B3946</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C9EDA7AB-35CC-1F05-484C-39DFB7969A05" name="Pais PK">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 17:16:55 UTC</createdTime>
+<ownerDesignName>enun2</ownerDesignName>
+<engineerTo>
+<item key="F596A855-89C3-B842-A2D8-168827B2104F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>43D6C420-C5B1-D9CA-6B4E-7B63E388F061</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

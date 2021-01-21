@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0BCEAF6C-14A3-0B4E-56C7-8C700B1A7754" name="Ciudad">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-26 18:01:44 UTC</createdTime>
+<generatorID>22BDBBA2-200D-5D95-3C3E-3AE64CF9E2F9</generatorID>
+<ownerDesignName>enun1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Ciudad" id="8F6771BC-2F70-926B-8EB7-3D122F110FB4">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-26 18:01:44 UTC</createdTime>
+<generatorID>73B615B1-2D64-C7D3-199D-91393CB0E8FA</generatorID>
+<ownerDesignName>enun1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_Ciudad" id="B0E6F3F8-393E-747F-422C-4715DDD32DB5">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-26 18:01:44 UTC</createdTime>
+<generatorID>8EB56E9B-F6B5-5385-3A97-81EFD258A755</generatorID>
+<ownerDesignName>enun1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Region_ID_Region" id="A783FEFF-9F04-725E-086A-9E9C755BF71D">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-26 18:01:44 UTC</createdTime>
+<generatorID>956334F3-398C-98A9-8D8E-1F927DD5B650</generatorID>
+<ownerDesignName>enun1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B69378FB-0183-39AD-D3CC-BA4A756EDD69" referredColumn="4F82521F-BEBE-7407-F651-EAA53797983A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FF255F6A-E894-2852-7E01-28AFF25F7231" name="Ciudad_PK">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-26 18:01:44 UTC</createdTime>
+<generatorID>85259EB1-F40E-21DE-D451-FA8CD05B7090</generatorID>
+<ownerDesignName>enun1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F6771BC-2F70-926B-8EB7-3D122F110FB4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E747157A-2041-BEB1-D3A3-5914F3F528A2" name="Ciudad_Region_FK">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-26 18:01:44 UTC</createdTime>
+<generatorID>B052BDD7-DFAB-BAAC-BC63-45C084536A3F</generatorID>
+<ownerDesignName>enun1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A783FEFF-9F04-725E-086A-9E9C755BF71D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

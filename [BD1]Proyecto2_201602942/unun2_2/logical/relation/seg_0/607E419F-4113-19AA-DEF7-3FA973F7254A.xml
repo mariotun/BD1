@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pais-inventor" directorySegmentName="seg_0" id="607E419F-4113-19AA-DEF7-3FA973F7254A">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:12:28 UTC</createdTime>
+<ownerDesignName>unun2_2</ownerDesignName>
+<engineerTo>
+<item key="1C0431EB-D100-5BA4-AB45-8A412D23E02F" value="true"/>
+</engineerTo>
+<sourcePk>3363696B-CD61-980E-F3C4-520A441A0BF6</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6304DD67-1DAA-C528-2DF6-12293694ADBF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9808A0D3-1AD0-BA18-2077-8BA67A58A950</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

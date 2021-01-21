@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="70CA1BBE-D855-626D-47D1-E346F466E26F" name="Invento">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:27:31 UTC</createdTime>
+<generatorID>D4F4B60D-5743-C8CC-F5C5-29E6BC89259D</generatorID>
+<ownerDesignName>enun2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Invento" id="D9CFB2C6-AFEB-175E-341B-C6DE9325CD67">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:27:31 UTC</createdTime>
+<generatorID>275AD905-34EA-8988-545F-E7613A3B3946</generatorID>
+<ownerDesignName>enun2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_Invento" id="6C63B775-4C03-AE01-C151-D16C24D3B1A4">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:27:31 UTC</createdTime>
+<generatorID>37FDF767-67D5-4FD0-BC42-86281C0FA409</generatorID>
+<ownerDesignName>enun2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Año_del_Invento" id="3061885B-6F02-94F9-3470-341B7B66EC96">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:27:31 UTC</createdTime>
+<generatorID>7A622450-230A-AF0E-D6D8-3A3498BB28AF</generatorID>
+<ownerDesignName>enun2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Profesional_ID_Profesional" id="A9D84CC8-68EE-BCBF-8483-576A578D04C8">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:27:31 UTC</createdTime>
+<generatorID>BF3E1D3D-FF41-4D9F-782A-B1F28E02078A</generatorID>
+<ownerDesignName>enun2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A7B3C231-3A00-DAA5-6511-C517DB216792" referredColumn="8658794C-E1C9-E628-D513-AF4ED137E78B"/>
+</associations>
+</Column>
+<Column name="Pais_ID_Pais" id="A4C96A33-5AFC-C60C-2D80-7A7CA457A59B">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:27:31 UTC</createdTime>
+<generatorID>7707C646-546B-454E-D9E0-F0E8D9174F5B</generatorID>
+<ownerDesignName>enun2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8859B779-E0AE-445E-54E9-3D85F452A7AF" referredColumn="1F064432-6BF2-CAC7-0466-B27291072158"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="792CBFA8-D2D9-67BA-F2AE-2C036217ACCB" name="Invento_PK">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:27:31 UTC</createdTime>
+<generatorID>71B9C941-0016-D233-C2D3-0CE28ABD9CD3</generatorID>
+<ownerDesignName>enun2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9CFB2C6-AFEB-175E-341B-C6DE9325CD67"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="337DE783-DB03-A009-FAD1-F1D6D6ED8A24" name="Invento_Pais_FK">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:27:31 UTC</createdTime>
+<generatorID>99C0D1CB-18CB-CE46-29C4-17F06F1766A5</generatorID>
+<ownerDesignName>enun2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4C96A33-5AFC-C60C-2D80-7A7CA457A59B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C5A1B512-A8C9-FC27-526A-5C2D0D5EAB71" name="Invento_Profesional_FK">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:27:31 UTC</createdTime>
+<generatorID>11D1795D-685A-6EDE-0BBF-BCC6FADCC09F</generatorID>
+<ownerDesignName>enun2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A9D84CC8-68EE-BCBF-8483-576A578D04C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

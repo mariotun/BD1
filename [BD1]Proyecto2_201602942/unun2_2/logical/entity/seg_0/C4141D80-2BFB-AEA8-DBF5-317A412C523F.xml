@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C4141D80-2BFB-AEA8-DBF5-317A412C523F" name="Asigna_Invento">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:06:47 UTC</createdTime>
+<ownerDesignName>unun2_2</ownerDesignName>
+<engineerTo>
+<item key="1C0431EB-D100-5BA4-AB45-8A412D23E02F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Asigna_Invento" id="633489A1-CB91-CD08-0358-0658ADC344CE">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:07:03 UTC</createdTime>
+<ownerDesignName>unun2_2</ownerDesignName>
+<engineerTo>
+<item key="1C0431EB-D100-5BA4-AB45-8A412D23E02F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Profesional" id="0BCF10D6-D5C1-AD4A-6E8D-F765BE9CE7C7">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:08:09 UTC</createdTime>
+<generatorID>FE2ED0CD-806B-AEF2-7A0A-5445F37F4B32</generatorID>
+<ownerDesignName>unun2_2</ownerDesignName>
+<engineerTo>
+<item key="1C0431EB-D100-5BA4-AB45-8A412D23E02F" value="true"/>
+</engineerTo>
+<referedAttribute>38B933B0-28B3-2BCB-6C0A-2FF7A804C97C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Invento" id="E124B81E-34CF-368C-AE72-41DD50D7C580">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:09:07 UTC</createdTime>
+<generatorID>9C450974-7E88-2946-EA0C-EDC21D39BFE5</generatorID>
+<ownerDesignName>unun2_2</ownerDesignName>
+<engineerTo>
+<item key="1C0431EB-D100-5BA4-AB45-8A412D23E02F" value="true"/>
+</engineerTo>
+<referedAttribute>C69E5A7D-6D5C-90BC-F49D-A2DA0692AEC1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="676EDAA6-91EA-AFFB-6808-3FD875318A1F" name="Asigna_Invento PK">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:07:28 UTC</createdTime>
+<ownerDesignName>unun2_2</ownerDesignName>
+<engineerTo>
+<item key="1C0431EB-D100-5BA4-AB45-8A412D23E02F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>633489A1-CB91-CD08-0358-0658ADC344CE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

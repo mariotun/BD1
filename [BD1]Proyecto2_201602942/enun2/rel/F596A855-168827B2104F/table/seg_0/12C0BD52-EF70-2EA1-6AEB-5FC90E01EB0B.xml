@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="12C0BD52-EF70-2EA1-6AEB-5FC90E01EB0B" name="Respuesta">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:27:31 UTC</createdTime>
+<generatorID>72E6D313-A6A3-BD60-9485-D55DFB5A3F69</generatorID>
+<ownerDesignName>enun2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Respuesta" id="7EDF3263-970F-0314-E31B-70418B308B0F">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:27:31 UTC</createdTime>
+<generatorID>56F969D9-76D7-2A22-0D1B-26567F5793A6</generatorID>
+<ownerDesignName>enun2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Posible_Respuesta" id="57E23758-A424-1D2D-DD64-8AEB09B9F23B">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:27:31 UTC</createdTime>
+<generatorID>A91070DA-76FA-0752-2EE5-15A02F1BF171</generatorID>
+<ownerDesignName>enun2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Respuesta_Correcta" id="68BFCCD9-8418-9998-D008-3FD3D2F95DBC">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:27:31 UTC</createdTime>
+<generatorID>C1991D9D-EE46-CD10-BEEB-76FA40F1A99D</generatorID>
+<ownerDesignName>enun2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Respuesta_Pais" id="AA37AE09-5877-D0AA-A722-9812E8323849">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:27:31 UTC</createdTime>
+<generatorID>6CA82011-11DF-6DF2-B80B-783D43157476</generatorID>
+<ownerDesignName>enun2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Encuesta_ID_Encuesta" id="96C52976-958A-B5BB-5928-B68FECFB5744">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:27:31 UTC</createdTime>
+<generatorID>CC92FE7F-D9CB-28CB-D69F-A380A38C7A06</generatorID>
+<ownerDesignName>enun2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FF41CB59-B33F-1395-D223-4E9FF7B0A537" referredColumn="FE27CC29-6C4C-C65D-AA6A-8E81047A5541"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0293867B-0108-8FAA-AA0B-2DCF3F0EFECC" name="Respuesta_PK">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:27:31 UTC</createdTime>
+<generatorID>110476A1-CCC7-2F9C-FA6E-F64BB38E3D96</generatorID>
+<ownerDesignName>enun2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7EDF3263-970F-0314-E31B-70418B308B0F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9018DEC0-FFB9-61EE-6802-E056271476D7" name="Respuesta_Encuesta_FK">
+<createdBy>mario</createdBy>
+<createdTime>2020-12-31 22:27:31 UTC</createdTime>
+<generatorID>97CC6F15-A1A1-3CCF-9864-533E013520B2</generatorID>
+<ownerDesignName>enun2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96C52976-958A-B5BB-5928-B68FECFB5744"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pais-frontera" directorySegmentName="seg_0" id="E827E5EC-83EB-051B-9F06-485168A5344E">
+<createdBy>mario</createdBy>
+<createdTime>2021-01-04 05:11:27 UTC</createdTime>
+<ownerDesignName>unun2_2</ownerDesignName>
+<engineerTo>
+<item key="1C0431EB-D100-5BA4-AB45-8A412D23E02F" value="true"/>
+</engineerTo>
+<sourcePk>3363696B-CD61-980E-F3C4-520A441A0BF6</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6304DD67-1DAA-C528-2DF6-12293694ADBF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0515C8D8-05E1-7B7C-0164-62DFE50F3AA6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
