@@ -1,7 +1,9 @@
 ![Alt text](Archivos/logo-fiusac.png?raw=true "")
-**Universidad de San Carlos de Guatemala**
-**Facultad de Ingeniería**
+
+
+
 **Escuela de Ciencias y Sistemas**
+
 **Sistemas de Bases de Datos 1**
 
 
@@ -18,6 +20,6 @@ MySQL.
 ![Alt text](Archivos/logo-mysql.png?raw=true "")
 * Tener instalado la herramienta visual de diseño de bases de datos
 MySQL Workbench para poder ejecutar los archivos .sql y ver las consultas de una forma mas ordenada.
-![Alt text](Archivos/logo-workbech.png?raw=true "")
+![Alt text](Archivos/logo-workbench.png?raw=true "")
 ## Contanto
-* E-mail:  orimnut09@gmail.com
+* E-mail:  oriamnut09@gmail.com
